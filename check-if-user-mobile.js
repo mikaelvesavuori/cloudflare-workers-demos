@@ -6,9 +6,9 @@
  * @returns {Response} - Returns markup and headers
  */
 async function handleRequest(request) {
-	// Use naive approach for mobile user agents, reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent
+  // Use naive approach for mobile user agents, reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent
   const IS_MOBILE = request.headers.get("user-agent").includes("Mobi");
-		
+
   const DATA = {
     headers: {
       ...request.headers,

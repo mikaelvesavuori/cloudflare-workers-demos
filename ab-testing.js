@@ -6,7 +6,7 @@
  * @returns {Response} - Returns markup and headers
  */
 async function handleRequest(request) {
-	const RANDOM_VERSION = Math.round(Math.random(0, 1) * 100) >= 51 ? "a" : "b";
+  const RANDOM_VERSION = Math.round(Math.random(0, 1) * 100) >= 51 ? "a" : "b";
 
   const DATA = {
     headers: {
@@ -14,8 +14,8 @@ async function handleRequest(request) {
       "X-Website-Version": RANDOM_VERSION,
       "Content-Type": "text/html;charset=UTF-8"
     }
-	};
-	
+  };
+
   return new Response(bodyMarkup(RANDOM_VERSION), DATA);
 }
 

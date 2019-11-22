@@ -1,6 +1,16 @@
 # Demos for Cloudflare Workers
 
-[Cloudflare Workers](https://workers.cloudflare.com) are brilliant! In other news, _I love Cloudflare <3_
+Assorted demos for doing things with [Cloudflare Workers](https://workers.cloudflare.com).
+
+Examples are:
+
+- Render a complete webpage at the edge
+- A/B testing
+- Check if the user is a bot or crawler and set that value as a header
+- Check if the user is on a mobile device and set that value as a header
+- Check the user's country and set that value as a header
+
+## What are edge functions/workers?
 
 Workers let you do _edge logic_ which means:
 
@@ -31,6 +41,8 @@ There's a few limitations as well:
 You will have to have a [Cloudflare account (free)](https://workers.cloudflare.com) and you can get the regular Workers plan for free as well. You receive a free `{DOMAIN}.workers.dev` domain where the functions will be hosted.
 
 You could use Serverless Framework to deploy code, but the absolutely easiest way is just to log in to Cloudflare and use the panels. Note that Safari is not fully supported, but Chrome works just fine, if you intend to use the inline coding and preview functionality.
+
+For actually getting started, it's all really easy, and covered well in the [docs](https://developers.cloudflare.com/workers/).
 
 ## Similar products
 

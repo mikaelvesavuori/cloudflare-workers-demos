@@ -6,7 +6,7 @@
  * @returns {Response} - Returns markup and headers
  */
 async function handleRequest(request) {
-	const USER_COUNTRY = request.headers.get("CF-IPCountry");
+  const USER_COUNTRY = request.headers.get("CF-IPCountry");
 
   const DATA = {
     headers: {

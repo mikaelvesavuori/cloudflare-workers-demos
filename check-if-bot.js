@@ -8,15 +8,15 @@
  * @returns {Response} - Returns markup and headers
  */
 async function handleRequest(request) {
-	const IS_BOT = checkIfBot(request.headers.get("user-agent"));
+  const IS_BOT = checkIfBot(request.headers.get("user-agent"));
 
-	if (IS_BOT) {
-		return new Response("Sorry bot! No can do!");
-	}
-	
+  if (IS_BOT) {
+    return new Response("Sorry bot! No can do!");
+  }
+
   const DATA = {
     headers: {
-			...request.headers,
+      ...request.headers,
       "Content-Type": "text/html;charset=UTF-8"
     }
   };
@@ -34,7 +34,8 @@ addEventListener("fetch", event => {
  * @returns {boolean} - Returns whether the user agent is a bot or not
  */
 function checkIfBot(userAgent) {
-	if (!userAgent) throw new Error("No 'userAgent' parameter passed to checkIfBot()!")
+  if (!userAgent)
+    throw new Error("No 'userAgent' parameter passed to checkIfBot()!");
   if (userAgent) {
     console.log("checkIfBot userAgent:", userAgent);
 
