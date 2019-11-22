@@ -30,7 +30,7 @@ There's a few limitations as well:
 
 You will have to have a [Cloudflare account (free)](https://workers.cloudflare.com) and you can get the regular Workers plan for free as well. You receive a free `{DOMAIN}.workers.dev` domain where the functions will be hosted.
 
-You could use Serverless Framework to deploy code, but the absolutely easiest is just logging in to Cloudflare and using the panels. Note that Safari is not fully supported, but Chrome works just fine, if you intend to use the inline coding and preview functionality.
+You could use Serverless Framework to deploy code, but the absolutely easiest way is just to log in to Cloudflare and use the panels. Note that Safari is not fully supported, but Chrome works just fine, if you intend to use the inline coding and preview functionality.
 
 ## Similar products
 
