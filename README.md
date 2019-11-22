@@ -40,4 +40,4 @@ You could use Serverless Framework to deploy code, but the absolutely easiest is
 
 ## References
 
-- [Cloudflare Workers, Template Gallery](https://developers.cloudflare.com/workers/templates/)
+- [Cloudflare Workers: Template Gallery](https://developers.cloudflare.com/workers/templates/)
