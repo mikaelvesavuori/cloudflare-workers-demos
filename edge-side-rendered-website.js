@@ -2,6 +2,7 @@
  * Worker logic
  * Renders a complete website on the edge
  * Any assets need to be stored in some other location, and pointed to with absolute URLs
+ *
  * @async
  * @function
  * @param {Request} request - The incoming request data

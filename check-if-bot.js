@@ -2,6 +2,7 @@
  * Worker logic
  * Checks if user agent is a bot or crawler, and if so, returns a simple string
  * If you are not a bot, you see a complete web page
+ *
  * @async
  * @function
  * @param {Request} request - The incoming request data

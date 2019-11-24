@@ -1,5 +1,6 @@
 /**
  * Worker logic
+ *
  * @async
  * @function
  * @param {Request} request - The incoming request data
